@@ -1,0 +1,50 @@
+#!/usr/bin/python3   
+#SPDX-FileCopyrightText: 2022 Soichiro Yamaki
+#SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+ans = 0
+for line in sys.stdin:
+
+ if(ans > 50):
+   try:
+     ans -= int(line)
+   except:
+     ans -= float(line)
+
+ elif(ans <= 50):
+   if(ans > 0):
+     try:
+      if(ans <= int(line)):
+        ans += int(line)
+
+      elif(ans > int(line)):
+        ans -= int(line)
+
+      else:
+         print("error")
+
+     except:
+      if(ans <= float(line)):
+        ans += float(line)
+
+      elif(ans > float(line)):
+        ans -= float(line)
+
+      else:
+       print("error")
+
+   elif(ans <= 0):
+    try:
+     ans += int(line) + int(line)
+
+    except:
+     ans += float(line) + float(line) 
+
+   else:
+    print("error")
+
+ else:
+   print("error") 
+
+print(ans)
