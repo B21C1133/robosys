@@ -9,4 +9,17 @@
       steps:                   
       - uses: actions/checkout@v3  
       - name: All test            
-        run: bash -xv ./test.bash ./test2.bash ./test3.bash ./test4.bash
+        run: bash -xv ./test.bash 
+      steps:
+      - uses:
+      - name: All test
+        run: bush -xv ./test2.bash
+      steps:
+      - uses:
+      - name: All test
+        run: bash -xv ./test3.bash
+      steps:
+      - uses:
+      - name: All test
+        run:  bash -xv ./test4.bash
+
