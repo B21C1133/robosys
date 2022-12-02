@@ -1,4 +1,4 @@
-![test](https://github.com/B21C1133/robosys2022/actions/workflows/test.yml/badge.svg)
+![test]([(https://github.com/B21C1133/robosys/actions/workflows/test.yml/badge.svg)])
 
 ## リポジトリ
 * このリポジトリは下記の用途の部分で述べるプログラムとそのプログラムが実行できるかのテストコードをまとめたものである。
