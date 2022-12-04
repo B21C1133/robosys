@@ -1,0 +1,4 @@
+jobs:
+ example-job:
+   steps:
+     - run: test2.bash
