@@ -2,7 +2,7 @@
 
 ## リポジトリ
 * このリポジトリは下記の用途の部分で述べるプログラムとそのプログラムが実行できるかのテストコードをまとめたものである。
-* 内容物として、LICENSE,README.md(これ),plus(メインプログラム),test.bash~test4.bash(テストコード), testcommand.bash(test1~4をテストするシステムファイル)という構成になっている。
+* 内容物として、LICENSE,README.md(これ),plus(メインプログラム),test.bash-test4.bash(テストコード), testcommand.bash(test1-4をテストするシステムファイル)という構成になっている。
 
 # plusコマンド
 
